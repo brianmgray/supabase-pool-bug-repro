@@ -1,0 +1,14 @@
+{
+  "name": "supabase-pool-bug-repro",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "db:migrate": "node migrate.js",
+    "test:session": "POOL=session node repro.js",
+    "test:transaction": "POOL=transaction node repro.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "postgres": "^3.4.8"
+  }
+}

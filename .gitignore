@@ -1,0 +1,10 @@
+# IDE
+/.idea/
+*.iml
+
+# AI
+/.claude/plans/
+
+# Project
+node_modules/
+.env
